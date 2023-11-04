@@ -3,11 +3,11 @@ on:
   workflow_dispatch: #手动触发工作流
    inputs:
     repository:
-        description: 'pgyapp/notionnext'
+        description: '目标仓库'
         required: true
         type: string
     name:
-        description: 'pgyapp/notionnext:latest'
+        description: '镜像名称'
         required: true
         type: string
 
